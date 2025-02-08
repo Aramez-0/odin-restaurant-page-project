@@ -1,0 +1,43 @@
+html, body {
+    background-color: rgb(34, 30, 30);
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#justify-content {
+    display: flex;
+    justify-content: center;
+}
+
+#content-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    background-color: white;
+    height: 93vh;
+}
+
+img {
+    width: 85%;
+}
+
+div {
+    margin: 10px;
+}
+
+#credit {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    margin: 3px;
+    color: white;
+    font-size: 0.8rem;
+}
+a {
+    color: white;
+}
